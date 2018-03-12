@@ -1,0 +1,9 @@
+.donnees
+{
+    display:flex;
+    flex-direction:column ;
+}
+input
+{
+    width: 18%;
+}

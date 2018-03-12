@@ -1,13 +1,15 @@
 body
 {
 	
+	background-color: indianred;
+
 }	 
 .tete
 {
 	display:flex;
 	justify-content: center;
 	align-items: center;
-	text-shadow: 4px 4px 2px red;
+	text-shadow: 4px 4px 2px  darkred;
 }	
 
 .infos
@@ -15,7 +17,7 @@ body
 	display: flex;
 	justify-content: space-around;
 	border:teal solid;
-	background-color: red;
+	background-color: darkred;
 	box-shadow: 3px 3px 1px black;
 }
 p
