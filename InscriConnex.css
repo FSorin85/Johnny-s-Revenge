@@ -3,7 +3,7 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: indianred;
+
 
 }
 .donnees
@@ -21,4 +21,12 @@ body
 input
 {
     width: 100%;
+}
+legend
+{
+
+}
+label
+{
+
 }
