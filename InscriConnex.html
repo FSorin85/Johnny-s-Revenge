@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="InscriConnex.css" />
+</head>
+<body>
+<fieldset>
+    <legend>Inscription</legend>
+    <form method="post" action="inscription.php" class="donnees">
+        <label for="pseudo">Votre pseudo :</label>
+        <input type="text" name="pseudo" id="pseudo" placeholder="Ex: Azor" maxlength="15" size="15" required autofocus />
+        <label for="passwd">Votre mot de passe :</label>
+        <input type="password" name="passwd" id="passwd" placeholder="********" maxlength="10" required />
+        <label for="passwdVerif">Mot de passe vérification :</label>
+        <input type="password" name="passwdVerif" id="passwdVerif" placeholder="********" maxlength="10" required />
+        <label for="email">Votre @email :</label>
+        <input type="email" name="mail" id="email" placeholder="monMail@domaine.tld" maxlength="30" required />
+        <label for="emailVerif">@email vérification :</label>
+        <input type="email" name="mailVerif" id="emailVérification" placeholder="monMail@domaine.tld" maxlength="30" required />
+        <input type="submit" value="S'inscrire" />
+    </form>
+</fieldset>
+<fieldset>
+    <legend>Connexion</legend>
+    <form class="infos">
+        <label for="pseudo">Votre @email :</label>
+        <input type="email" name="email" id="email" maxlength="30" required autofocus>
+        <label for="passwd">Votre mot de passe:</label>
+        <input type="password" name="passwd" id="passwd" placeholder="********" maxlength="10" required />
+        <input type="submit" value="Connexion" />
+    </form>
+</fieldset>
+</body>
+</html>
