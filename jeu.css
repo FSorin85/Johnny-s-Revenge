@@ -1,7 +1,7 @@
 body
 {
 
-
+    background-color: indianred;
 
 }
 .titre
@@ -15,10 +15,11 @@ body
 {
     display: flex;
     justify-content: space-around;
-
+    background-color: darkred;
+    border : midnightblue solid;
     box-shadow: 3px 3px 1px black;
 }
 p
 {
-
+    color:white;
 }

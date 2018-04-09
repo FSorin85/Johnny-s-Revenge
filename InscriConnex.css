@@ -3,13 +3,14 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-
+    background-color: indianred;
 
 }
 .donnees
 {
     display:flex;
     flex-direction:column;
+
 }
 .infos
 {
@@ -25,8 +26,9 @@ input
 legend
 {
 
+    color: white;
 }
 label
 {
-
+    color: white;
 }
