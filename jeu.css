@@ -1,25 +1,4 @@
-body
+navbar navbar-expand-lg navbar-light bg-light
 {
-
-    background-color: indianred;
-
-}
-.titre
-{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    text-shadow: 4px 4px 2px  darkred;
-}
-.menu
-{
-    display: flex;
-    justify-content: space-around;
-    background-color: darkred;
-    border : midnightblue solid;
-    box-shadow: 3px 3px 1px black;
-}
-p
-{
-    color:white;
+    color:red
 }
