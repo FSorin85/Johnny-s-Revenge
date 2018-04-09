@@ -6,22 +6,26 @@ body
     background-color: indianred;
 
 }
-.donnees
+.inscription
 {
     display:flex;
     flex-direction:column;
 
 }
-.infos
+.connexion
 {
     display: flex;
     flex-direction:column;
     align-content: stretch;
-    width: 100%;
+    position: relative;
+    left: 100px;
+    bottom : 93px;
 }
-input
+.co
 {
-    width: 100%;
+    position: relative;
+    left: 100px;
+    bottom : 93px;
 }
 legend
 {
@@ -32,3 +36,4 @@ label
 {
     color: white;
 }
+
