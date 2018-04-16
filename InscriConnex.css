@@ -12,28 +12,29 @@ body
     flex-direction:column;
 
 }
-.connexion
-{
-    display: flex;
-    flex-direction:column;
-    align-content: stretch;
-    position: relative;
-    left: 100px;
-    bottom : 93px;
-}
-.co
-{
-    position: relative;
-    left: 100px;
-    bottom : 93px;
-}
+
 legend
 {
 
     color: white;
+
+
 }
 label
 {
     color: white;
 }
-
+.connexion
+{
+    display:flex;
+    flex-direction:column;
+    position: relative;
+    left: 40px;
+    bottom: 93px;
+}
+.co
+{
+    position: relative;
+    left: 40px;
+    bottom: 93px;
+}

@@ -8,7 +8,6 @@ function validatePassword(){
         confirm_password.setCustomValidity('');
     }
 }
-console.log(password)
 
 password.onchange = validatePassword;
 confirm_password.onkeyup = validatePassword;

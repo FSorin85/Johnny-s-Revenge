@@ -9,13 +9,13 @@
 <body>
 <fieldset>
     <legend>Inscription</legend>
-    <form method="post" action="#"  class="inscription">
+    <form method="post" action="jeu.html"  class="inscription">
         <label for="pseudo">Votre pseudo :</label>
-        <input type="text" name="pseudo" id="pseudo" placeholder="Ex: Azor" maxlength="15" size="15" required autofocus />
+        <input type="text" name="pseudo" id="pseudo"  maxlength="15" size="15" required autofocus />
         <label for="passwd">Votre mot de passe :</label>
-        <input type="password" name="passwd" id="passwd" placeholder="********" maxlength="15" required />
+        <input type="password" name="passwd" id="passwd"  maxlength="15" required />
         <label for="passwdVerif">Vérification de votre mot de passe :</label>
-        <input type="password" name="passwdVerif" id="passwdVerif" placeholder="********" maxlength="15" required />
+        <input type="password" name="passwdVerif" id="passwdVerif"  maxlength="15" required />
         <label for="email">Votre @email :</label>
         <input type="email" name="mail" id="email" placeholder="prénom.nom@imie.fr" maxlength="30" required />
         <label for="emailVerif">Vérification de votre @email :</label>
@@ -26,12 +26,12 @@
 </fieldset>
 <fieldset>
     <legend class ="co">Connexion</legend>
-    <form method="post" action="#"  class="connexion">
+    <form method="post" action="jeu.html"  class="connexion">
         <label for="pseudo">Votre @email :</label>
         <input type="email" name="email" id="email" maxlength="30" placeholder="prénom.nom@imie.fr" pattern=".+@imie.fr"
                title="Merci de fournir uniquement une adresse IMIE"  required autofocus>
         <label for="passwd">Votre mot de passe:</label>
-        <input type="password" name="passwd" id="passwd" placeholder="********" maxlength="10" required />
+        <input type="password" name="passwd" id="passwd"  maxlength="10" required />
         <input type="submit" class="btn btn-dark" value="Connexion" />
     </form>
 </fieldset>
