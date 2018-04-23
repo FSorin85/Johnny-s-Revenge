@@ -1,6 +1,6 @@
-DROP DATABASE IF EXISTS JR;
-CREATE DATABASE JR;
-USE JR;
+DROP DATABASE IF EXISTS jr;
+CREATE DATABASE jr;
+USE jr;
 
 DROP TABLE IF EXISTS user;
 CREATE TABLE user (
@@ -14,11 +14,11 @@ PRIMARY KEY (id_user)
 DROP TABLE IF EXISTS chara;
 CREATE TABLE chara (
 id_chara BIGINT NOT NULL AUTO_INCREMENT,
-life_chara BIGINT,
-strength_chara BIGINT,
-vitality_chara BIGINT,
-speed_chara BIGINT,
-id_user BIGINT,
+life_chara BIGINT NOT NULL ,
+strength_chara BIGINT NOT NULL,
+vitality_chara BIGINT NOT NULL,
+speed_chara BIGINT NOT NULL ,
+id_user BIGINT NOT NULL,
 PRIMARY KEY (id_chara)
 );
 
